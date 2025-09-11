@@ -24,7 +24,7 @@ function getElements() {
 
 // --- API CALL ---
 async function fetchForecast(data) {
-    const response = await fetch('http://localhost:4567/api/forecast', {
+    const response = await fetch('https://seahorse-app-r9yjv.ondigitalocean.app/api/forecast', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
